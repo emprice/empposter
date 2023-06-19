@@ -1,0 +1,139 @@
+\documentclass[12pt]{empposter}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{natbib}
+\bibliographystyle{plain}
+
+\usepackage{amsmath}
+\usepackage{verbatimbox}
+
+\usepackage{graphicx}
+\graphicspath{{img/}}
+
+\settitle{Hello, world!}
+\addauthor{Prof. Foo}
+\addauthor{Prof. Bar}
+\addauthor[and]{Prof. Baz}
+\addaffiliation{Qux Institute of Technology}
+
+\newcommand\heading[1]{\textsc{\LARGE {#1}} \\[0.5em]}
+\definecolor{accentcolor}{HTML}{A3BE8C}
+
+\custombox[paddingleft=0.5in, paddingright=0.5in, paddingtop=0.5in, paddingbottom=0.5in, bordercolor=accentcolor, borderwidth=5pt, margintop=0.25in]{borderedbox}
+
+\begin{document}
+\titlebox[{color=accentcolor!30!white, width=\linewidth, marginleft=0.2\linewidth, marginright=0.2\linewidth, paddingtop=0.5in, paddingbottom=0.5in}]
+
+\columnratio{0.6, 0.4}
+\begin{paracol}{2}
+\begin{borderedbox}[marginright=0.25in]
+    \begin{tabular}{lcc}
+        \parbox{0.4\linewidth}{%
+            \large%
+            \begin{itemize}
+                \item[\bulletify{github.eps}] \texttt{emprice}
+                \item[\bulletify{orcid.eps}] \texttt{{0000-0002-3286-3543}}
+                \item[\bulletify{email2.eps}] \texttt{emprice@uchicago.edu}
+                \item[\bulletify{website.eps}] \texttt{https://emprice.org}
+            \end{itemize}} &
+        \parbox{0.3\linewidth}{%
+            \qrcode[height=0.9\linewidth]{https://emprice.org}} &
+        \parbox{0.3\linewidth}{%
+            \qrcode[height=0.9\linewidth]{https://github.com/emprice/empposter}}
+    \end{tabular}
+\end{borderedbox}
+\switchcolumn
+\makeatletter
+\begin{borderedbox}[marginleft=0.25in]
+    \heading{A French Nursery Rhyme}
+    Une souris verte, \\
+    Qui courait dans l'herbe \\
+    Je l'attrape par la queue, \\
+    Je la manque \`a ces messieurs \\
+    Ces messieurs me disent, \\
+    \guillemotleft Trempez-l\`a dans l'huile, \\
+    Trempez-l\`a dans l'eau, \\
+    \c Ca fera un escargot tout chaud. \guillemotright
+\end{borderedbox}
+\makeatother
+\end{paracol}
+
+\columnratio{0.5, 0.5}
+\begin{paracol}{2}
+\begin{borderedbox}[marginright=0.25in]
+    \heading{Zen of Python}
+    \begin{enumerate}
+        \item Beautiful is better than ugly.
+        \item Explicit is better than implicit.
+        \item Simple is better than complex.
+        \item Complex is better than complicated.
+        \item Flat is better than nested.
+        \item Sparse is better than dense.
+        \item Readability counts.
+        \item Special cases aren't special enough to break the rules.
+        \item Although practicality beats purity.
+        \item Errors should never pass silently.
+        \item Unless explicitly silenced.
+        \item In the face of ambiguity, refuse the temptation to guess.
+        \item There should be one --- and preferably only one --- obvious way to do it.[a]
+        \item Although that way may not be obvious at first unless you're Dutch.
+        \item Now is better than never.
+        \item Although never is often better than right now.[b]
+        \item If the implementation is hard to explain, it's a bad idea.
+        \item If the implementation is easy to explain, it may be a good idea.
+        \item Namespaces are one honking great idea – let's do more of those!
+    \end{enumerate}
+\end{borderedbox}
+\switchcolumn
+\begin{verbbox}[\normalfont]
+Where dips the rocky highland
+Of Sleuth Wood in the lake,
+There lies a leafy island
+Where flapping herons wake
+The drowsy water rats;
+There we've hid our faery vats,
+Full of berrys
+And of reddest stolen cherries.
+Come away, O human child!
+To the waters and the wild
+With a faery, hand in hand,
+For the world's more full of weeping than you can understand.
+
+Where the wave of moonlight glosses
+The dim gray sands with light,
+Far off by furthest Rosses
+We foot it all the night,
+Weaving olden dances
+Mingling hands and mingling glances
+Till the moon has taken flight;
+To and fro we leap
+And chase the frothy bubbles,
+While the world is full of troubles
+And anxious in its sleep.
+Come away, O human child!
+To the waters and the wild
+With a faery, hand in hand,
+For the world's more full of weeping than you can understand.
+\end{verbbox}
+\begin{borderedbox}[marginleft=0.25in]
+    \heading{Excerpt from \textit{The Stolen Child} by W. B. Yeats}
+    \par\theverbbox
+\end{borderedbox}
+
+\begin{borderedbox}[marginleft=0.25in]
+    \heading{The Most Beautiful Equation}
+    \begin{equation*}
+        e^{i \pi} = -1
+    \end{equation*}
+\end{borderedbox}
+\end{paracol}
+
+\nocite{*}
+\begin{borderedbox}[width=\linewidth]
+    \heading{References}
+    \bibliography{biblio}
+\end{borderedbox}
+\end{document}
+
+% vim: set ft=tex:

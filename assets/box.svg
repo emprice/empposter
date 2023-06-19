@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100%"
+   viewBox="0 0 181.30414 84.46563"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <style type="text/css">
+     #border {
+       fill: #2e3440;
+     }
+     #text, #padding, #margin {
+       fill: #2e3440;
+     }
+     #outer, #middle, #inner {
+       fill: #ffffff;
+     }
+     #inner {
+       stroke: #2e3440;
+     }
+     @media (prefers-color-scheme: dark) {
+       #text, #padding, #margin {
+         fill: #eceff4;
+       }
+       #outer, #middle, #inner {
+         fill: #000000;
+       }
+       #inner {
+         stroke: #eceff4;
+       }
+     }
+  </style>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.347931,-89.156082)">
+    <rect
+       style="fill-rule:evenodd;stroke-width:0.117622;stroke-linecap:round"
+       id="outer"
+       width="181.30414"
+       height="84.46563"
+       x="14.347931"
+       y="89.156082" />
+    <rect
+       style="fill-rule:evenodd;stroke:#a3be8c;stroke-width:7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="middle"
+       width="158.76875"
+       height="57.18203"
+       x="25.615623"
+       y="103.100000" />
+    <rect
+       style="vector-effect:non-scaling-stroke;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       id="inner"
+       width="135.15414"
+       height="31.207085"
+       x="37.422928"
+       y="115.78536" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.231px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill-opacity:1;stroke:none;stroke-width:0.57116px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="105.4016"
+       y="136.28989"
+       id="text"><tspan
+         id="tspan2864"
+         style="fill-opacity:1;stroke-width:0.57116px"
+         x="105.4016"
+         y="136.28989">Hello, world!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="46.658894"
+       y="112.01637"
+       id="padding"><tspan
+         style="fill-opacity:1;stroke-width:0.264583px"
+         x="46.658894"
+         y="113.01637"
+         id="tspan5182">(padding)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="178.87883"
+       y="96.849152"
+       id="margin"><tspan
+         id="tspan8340"
+         style="fill-opacity:1;stroke-width:0.264583px"
+         x="178.87883"
+         y="96.849152">(margin)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="105"
+       y="105.43668"
+       id="border"><tspan
+         id="tspan11296"
+         style="fill-opacity:1;stroke-width:0.264583px"
+         x="105"
+         y="105.43668">(border)</tspan></text>
+  </g>
+</svg>
